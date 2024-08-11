@@ -1,1 +1,1 @@
-# case-study
+![Diagram](Diagram.svg)
