@@ -1,21 +1,21 @@
-## Architecture Diagram
+# Architecture Diagram
 ![Diagram](Diagram.svg)
 
 ---
 
-## Data Warehouse Diagram
+# Data Warehouse Diagram
 ![Diagram](Datawarehouse_Diagram.svg)
 
 ---
 
-## Crunchbase to Parquet API Integration
+# Crunchbase to Parquet API Integration
 
-# Prerequisites
+## Prerequisites
 
 - Docker
 - Crunchbase API key
 
-# Building the Docker Image
+## Building the Docker Image
 
 1. Clone the repository.
 
@@ -27,7 +27,7 @@
    docker build -t crunchbase-parquet-integration .
    ```
 
-# Running the Docker Container
+## Running the Docker Container
 
 Run the container, passing the Crunchbase API key as an environment variable:
 
